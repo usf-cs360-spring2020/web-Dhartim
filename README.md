@@ -6,7 +6,15 @@
 
 **Name:** Dharti Madeka
 **Email:** <dpmadeka@dons.usfca.edu>
+**Major:** Computer Science
+**Expected Graduation:** May, 2020.
 
-This is a template website using [Markdown](https://guides.github.com/features/mastering-markdown/), [Jekyll](https://jekyllrb.com/), and [Github Pages](https://pages.github.com/). Designed to be modified (including this README file).
+I am Dharti Madeka from India. :in: 
 
-*Template based on: <https://github.com/usf-cs360-spring2020/template-basic>*
+An Engineer in making.
+Young, enthusiast professional with an affinity towards anything that screams technology.
+A techno geek at heart, with a considerate interest in the graphics of life.
+Wanderlust.
+Easy going and the truest of Leo. 
+
+
