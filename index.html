@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- TODO: Change title -->
+    <title>Dharti's personal Website</title>
+
+    <!-- Load Bulma from CDN (consider saving it to repository instead) -->
+    <!-- https://bulma.io/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+
+    <!-- Load Font Awesome 5 (free) icons -->
+    <script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js" data-auto-replace-svg="nest"></script>
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> -->
+  </head>
+
+  <body>
+
+  <!-- Page header -->
+  <!-- https://bulma.io/documentation/layout/hero/ -->
+  <section class="hero is-primary is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <!-- TODO: Change title -->
+        <h1 class="title">Dharti Madeka</h1>
+        <!-- TODO: Change subtitle -->
+        <h2 class="subtitle">Personal Portfolio</h2>
+      </div>
+    </div>
+  </section>
+  <!-- End page header -->
+
+  <!-- Page navigation -->
+  <!-- https://bulma.io/documentation/components/navbar/ -->
+  <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <!-- TODO: Change link to repository homepage if needed -->
+        <!-- TODO: Change which navbar-item is-active if needed -->
+        <a class="navbar-item is-active" href="index.html">
+          <span class="icon"><i class="fas fa-home"></i></span>
+          <span>Home</span>
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="main-menu">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="main-menu" class="navbar-menu has-text-weight-medium">
+        <!-- Left navbar items -->
+        <div class="navbar-start">
+          <a class="navbar-item" href="#education" title="Education">
+            <span class="icon"><i class="fas fa-graduation-cap"></i></span>
+            <span>Education</span>
+          </a>
+          <a class="navbar-item" href="#work" title="Work">
+            <span class="icon"><i class="fas fa-table"></i></span>
+            <span>Work</span>
+          </a>
+          <a class="navbar-item" href="#Projects" title="Projects">
+            <span class="icon"><i class="fas fa-tasks"></i></span>
+            <span>Projects</span>
+          </a>
+        </div>
+
+        <!-- Right navbar items -->
+        <div class="navbar-end">
+          <!-- TODO: Update as needed -->
+          <a class="navbar-item" href="#about" title="About">
+            <span class="icon"><i class="fas fa-info-circle"></i></span>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End page navigation -->
+
+  <section class="section">
+    <div class="container">
+      <!-- Begin page content -->
+      <div class="content">
+        <h1 class="title">
+          <!-- TODO: Change page title -->
+          About Me
+        </h1>
+        <p class="subtitle">
+           <!-- TODO: Change page subtitle -->
+          Actively Seeking Full-time as Software Engineer.
+        </p>
+
+        <p>An Engineer in making.
+          Young, enthusiast professional with an affinity towards anything that screams technology.
+          A techno geek at heart, with a considerate interest in the graphics of life.
+          Wanderlust.
+          Easy going and the truest of Leo. </p>
+        <h2 id="education"> Education</h2>
+        <div class="education">
+          <p class="subtitle">Master of Science, Computer Science (08/2018-05/2020)</p>
+          <p>University of San Francisco, California, USA</p>
+          <p class="subtitle">Bachelor of Technology, Computer Engineering (08/2012 - 06/2016)</p>
+          <p>RK University, Gujarat, India</p>   
+        </div>
+        <h2 id="work">Work</h2>
+        <div class="work">
+          <div class="card">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48">
+                    <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQHoTRX0GkGHuw/company-logo_100_100/0?e=1588204800&v=beta&t=8tHLr8uvxVEmaclilxYI_wHWu6x6yC60mDIi34CvMOc" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">University Of San Francisco</p>
+                  <p class="subtitle is-6">Business Intelligence Student Intern</p>
+                  <p class="subtitle is-6">October, 2019 - Present</p>
+                  <p class="subtitle is-6"><i>San Francisco, CA</i></p>
+                </div>
+              </div>
+              <div class="content">
+                <p><b>CIPE Analytics: </b>Working on dashboards and providing insights with university data using Tableau & SQL.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48">
+                    <img src="https://media-exp1.licdn.com/dms/image/C510BAQELqXUJwyU77Q/company-logo_100_100/0?e=1588204800&v=beta&t=VJIrWOgc8vEdM5L0EkkgJXfwTbeJoh6JS_kHD1okx0c" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">Oracle - NetSuite</p>
+                  <p class="subtitle is-6">Software Engineer Intern</p>
+                  <p class="subtitle is-6">May, 2019 - August, 2019</p>
+                  <p class="subtitle is-6"><i>RedWood City, CA</i></p>
+                </div>
+              </div>
+              <div class="content">
+              <p><b>SuiteApp Development Framework : </b>Worked as full stack developer with Java, SQL and JavaScript technologies in order to
+                develop a module to retrieve data from DB and convert to XML. Also developed a dashboard for statistical analysis using Kibana
+                and ElasticSearch. TDD and scrum methodologies were used while working on this project.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48">
+                    <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQEBlVbxMm6y1w/company-logo_100_100/0?e=1588204800&v=beta&t=5lTPUrNkHvZOXB44nAif9a52W_JJ3rLO0Ai08PHKN28" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">Atos</p>
+                  <p class="subtitle is-6">Security Tester</p>
+                  <p class="subtitle is-6">June, 2016 - July, 2018</p>
+                  <p class="subtitle is-6"><i>Pune, India</i></p>
+                </div>
+              </div>
+              <div class="content">
+              <p><b>Tokyo 2020 Olympics Ticketing System : </b>Worked closely with design and development team. Developed and Tested ticketing
+                system using IBM Appscan, Burp Suite, Selenium
+                <br/>
+                <b>Siemens Web Application : </b>IBM Appscan was used to verify code manually. Created Automated scripts with the help of
+                Selenium tool for brute forcing XSS on web-based java forms.
+                <br/>
+                <b>VDO-Continental Web Application :</b> Used for automated driving in cars. IBM AppScan was used as a commercial tool and
+                Burp Suite was used to verify manual test cases. Used selenium to test web based java forms.
+                <br/>
+                <b>BMW-COFIS Web Application : </b>Security testing on BMW’s “Common Solution Overview”, a web-based application. IBM
+                Appscan was used as a commercial tool and then was verified manually also with IBM Appscan.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48">
+                    <img src="" alt="">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">Unique IT Solution</p>
+                  <p class="subtitle is-6">Developer Intern</p>
+                  <p class="subtitle is-6">January, 2016 - May, 2016</p>
+                  <p class="subtitle is-6"><i>Rajkot, India</i></p>
+                </div>
+              </div>
+              <div class="content">
+              <p><b>Worked on a Marriage Bureau Application:</b> A local web application for matchmaking. Used JSP and Java to develop it.
+              Used HTML, CSS, Bootstrap and Sweet-alert for front-end development.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48">
+                    <img src="https://media-exp1.licdn.com/dms/image/C510BAQE1kRDLlgwzXw/company-logo_100_100/0?e=1588204800&v=beta&t=-l2usEsMGI3I8NGMT2Od3cVr5Gx_WxtY0H62T4wiR6U" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">I Knowledge Factory</p>
+                  <p class="subtitle is-6">Summer Intern</p>
+                  <p class="subtitle is-6">May, 2015 - June, 2016</p>
+                  <p class="subtitle is-6"><i>Pune, India</i></p>
+                </div>
+              </div>
+              <div class="content">
+              <p>Mentee in the field of Design, Development and Sales. Trained in SPANCO</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <h2 id="Projects">Projects</h2>
+        <div class="projects">
+          <div class="box">
+            <article class="media">
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Meal Planner Web App</strong>
+                    <br>
+                    Webapp to plan and eat a healthy meal. Used <b>Figma, React, MaterialUI , Bootstrap</b> to design and
+develop frontend of it. Worked as front-end developer.Used <b>NodeJS, bcrypt, sequelize and PostgreSql</b> for backend and database.
+                  </p>
+                </div>
+                <i class="fab fa-github-alt"></i> <a href="https://github.com/sfdevshop/meal-planner-app-f19">Github</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="box">
+            <article class="media">
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>OneDonation</strong>
+                    <br>
+                    Lead a team to Design an Application for Donation to Organizations. Designed mockups and prototype using
+<b>UI/UX design thinking and Figma</b>.
+                    </p>
+                </div>
+                <i class="fab fa-figma"></i> <a href="https://www.figma.com/file/yvhnvSbMZSEMqNR7ivvzAR/OneDonation-Final-Design?node-id=0%3A1">Figma</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="box">
+            <article class="media">
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Ticket Purchase Application</strong>
+                    <br>
+                    Implemented a service-oriented application for ticket purchasing. Used <b>Jetty & Servlet</b> as web
+framework to develop <b>RESTful Web Service APIs in Java. MySQL</b> was used for database.
+                    </p>
+                </div>
+                <i class="fab fa-github-alt"></i> <a href="https://github.com/Dhartim/project-4-Dhartim">Github</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="box">
+            <article class="media">
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Type Ahead and Search</strong>
+                    <br>
+                    Implemented Google auto-search functionality on an inverted index with raw Http Server using <b>Java,
+                    JavaScript, CSS and JSON</b> for dataset.
+                    </p>
+                </div>
+                <i class="fab fa-github-alt"></i> <a href="https://github.com/Dhartim/side-project-Dhartim">Github</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="box">
+            <article class="media">
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Http Server</strong>
+                    <br>
+                    Developed a server using <b>concurrency, threads and sockets in Java</b>. Developed test cases using <b>Junit</b>. Developed a
+from-scratch HttpServer.
+                    </p>
+                </div>
+                <i class="fab fa-github-alt"></i> <a href="https://github.com/Dhartim/project-3-Dhartim">Github</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="box">
+            <article class="media">
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Publish/Subscribe Framework</strong>
+                    <br>
+                    Developed a message broker framework that supports <b>publish/subscribe</b> functionality.
+                    Concepts of <b>Java concurrency and threads, sockets and Generics</b> were applied
+                    </p>
+                </div>
+                <i class="fab fa-github-alt"></i> <a href="https://github.com/Dhartim/project-2-Dhartim">Github</a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+
+        <h2 id="about">Contact</h2>
+
+        <!-- Profile box -->
+        <!-- https://bulma.io/documentation/layout/media-object/ -->
+        <article class="media">
+          <!-- TODO: Replace with profile photo -->
+          <figure class="media-left">
+            <p class="image is-128x128"><img class="is-rounded" src="https://lh3.googleusercontent.com/KNWH6F71pUe8XFW1WUeU9BhTevgP2cDvID0flqOkoFVU60qP0h77KM1nP123wdT5V-2fDVdQjnSC-Vk1v6WCBylXInTSKRZ0RdW5eIevxG_0B-8slRpKY-cOgubxpSCjPzmg9hqb_t3nwlQhI_RUbEiIutruSXO4QyWCe0xblsEfFganXOoiR6zjyEQkw6DhfK_jD-nwikjofdFHrJ1ii5_uFdnEle4cI8AO0Av6oN2VpKUNLdbqcj9pYr4S2UV8MaoDlb7POeUU-yzfI482ccGI8ibSgutstY8XiYM6cr2BxvYS4NsiZ4EBRH0IC1XPd0GljojJpYXmwcQnOIlZz2O5EX19r5OMVk2qLba0cjhZW5hYQ8HSeXK8DbPwT4FnieuKDRh0P8esJSil1Y6G3QBqjsC6mTR_lB5iFgAJhzdNZUQUZXNfzFQF6v2-xkkh25Kj2b5Fz1fklmcQaYaQV8NY0Edx5QkO3TJ_CKi_teK-kbyAUi6D4qfjWIyl8Rk1H_gM5MhPOXQOzngK79_uTuwfD8eKJHmOvwoflo4sCaYogwRfLh9DjNS4BKvH5JV9R5GSQ8rVakndV2uwx0D08b06ZRFuTirnPuDrX5QmhbIZwZeoSyiGT1M976jWuwb2N7u9HrQlro4OEB7PJa9CAe2kgVY7opw1L2oP1MCneMKgKzrwe0TBlRA=w1080-h1350-no"></p>
+          </figure>
+
+          <div class="media-content">
+            <div class="content">
+              <!-- TODO: Replace with contact information -->
+              <p>
+                <strong>Dharti Madeka</strong><br/>
+                CS Major, <a href="https://www.usfca.edu/">University of San Francisco</a><br/>
+                <em>Expected Graduation: May, 2020</em><br/>
+                <i class="fas fa-envelope"></i> <a href="mailto:dpmadeka@dons.usfca.edu">dpmadeka@dons.usfca.edu</a>
+                <br/>
+                <i class="fab fa-github-alt"></i> <a href="https://github.com/Dhartim">Github</a>
+                <br/>
+                <i class="fab fa-linkedin-in"></i> <a href="https://www.linkedin.com/in/ dharti-madeka">Linkedin</a>
+                <br/>
+                <span><i class="fas fa-mobile"></i> (502)-2943295</span>
+              </p>
+
+              <!-- TODO: Replace or remove tags -->
+              <!-- https://bulma.io/documentation/elements/tag/ -->
+              <div class="heading">Skills</div>
+
+              <div class="tags">
+                <span class="tag">Java</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">BootStrap</span>
+                <span class="tag">REST</span>
+                <span class="tag">UI/UX Design thinking</span>
+                <span class="tag">ReactJS</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">OracleDB</span>
+                <span class="tag">PostgreSQL</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- End profile box -->
+
+      </div>
+      <!-- End page content -->
+    </div>
+  </section>
+
+  <!-- Page footer -->
+  <!-- https://bulma.io/documentation/layout/footer/ -->
+  <footer class="footer">
+    <div class="content has-text-centered is-size-7">
+      <p>
+        <a href="#top">
+          <span class="fas fa-arrow-up"></span>
+          <span class="has-text-weight-medium">Back to Top</span>
+        </a>
+      </p>
+
+      <p>
+        <!-- TODO: Change to link to your Github repository -->
+        <a href="https://github.com/Dhartim" class="button is-small" style="padding-left: 1em; padding-right: 1em;">
+          <i class="fab fa-github-alt"></i>&nbsp;<strong>Github</strong>
+        </a>
+
+        <a href="https://fontawesome.com/" class="button is-small" style="padding-left: 1em; padding-right: 1em;">
+          <i class="fab fa-font-awesome"></i>&nbsp;<strong>FontAwesome</strong>
+        </a>
+
+        <a href="https://bulma.io" class="button is-small">
+          <img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="128" height="24">
+        </a>
+      </p>
+    </div>
+  </footer>
+  <!-- End page footer -->
+
+  <!-- Mobile menu responsiveness -->
+  <!-- https://bulma.io/documentation/components/navbar/ -->
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    if ($navbarBurgers.length > 0) {
+      $navbarBurgers.forEach( el => {
+        el.addEventListener('click', () => {
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+    }
+  });
+  </script>
+  <!-- End mobile menu responsiveness -->
+  </body>
+
+</html>
