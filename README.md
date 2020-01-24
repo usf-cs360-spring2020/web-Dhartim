@@ -4,8 +4,8 @@
 
 ![Profile Image](profile.png)
 
-**Name:** Your Name  
-**Email:** <username@dons.usfca.edu>
+**Name:** Dharti Madeka
+**Email:** <dpmadeka@dons.usfca.edu>
 
 This is a template website using [Markdown](https://guides.github.com/features/mastering-markdown/), [Jekyll](https://jekyllrb.com/), and [Github Pages](https://pages.github.com/). Designed to be modified (including this README file).
 
